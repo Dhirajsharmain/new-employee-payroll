@@ -77,3 +77,14 @@ const getInputValueById = (id) => {
     let value = document.querySelector(id).value;
     return value;
 }
+
+
+/**
+ * Helper Method 
+ * @param {*} id 
+ * @returns 
+ */
+const getInputValueByValue = (id) => {
+    let value = document.getElementById(id).value;
+    return value;
+}
